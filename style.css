@@ -18,7 +18,8 @@ body {
     text-shadow: 10px;
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.742);
+    /*box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.742);*/
+    box-shadow: 0 70px 63px -60px #000000;
     min-width: 200px;
     transition: transform 0.2s;
     position: relative;
