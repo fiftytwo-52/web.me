@@ -44,11 +44,11 @@ h3 {
 
 #img_container {
     background-image: url('bg4.png');
-    height: 130%;
+    height: 120%;
     background-size: cover;
     opacity: 1;
     margin: 0px 20px 0px -10px;
-    width: 200px;
+    width: 150px;
     opacity:0.3;
     position: relative;
     z-index: 2;
