@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0px;
 }
+
 body {
   background-color: #ffffff;
   display: flex;
@@ -29,6 +30,59 @@ body {
   position: relative;
 }
 
+#nav {
+  height: fit-content;
+  align-items: center;
+  width: 100%;
+  padding: 2px;
+  background: #00eeff00;
+  justify-content: space-between;
+  display: flex;
+}
+
+.top_menu {
+  width: 50%;
+  min-width: 40%;
+  align-items: center;
+  display: flex;
+  padding: 0px 5px 0px 0px;
+  justify-content: right;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'poppins';
+  overflow: hidden;
+  font-size: 0.6rem;
+  text-wrap: nowrap;
+  margin: 0px 0px 0px 5px;
+  height: 20px;
+  position: relative;
+}
+#search{
+  border-radius: 15px;
+  height: 50%;
+  border: none;
+  font-size: 12px;
+  padding: 3px;
+
+}
+
+label {
+  margin: 0px 0px 0px 5px;
+  border: 1px solid transparent;
+  padding: 0px 2px 0px 2px;
+  transition: border 0.5s;
+  height: fit-content;
+  color: white;
+  font-weight: 500;
+  border-radius: 15px;
+  perspective: 100;
+
+}
+
+label:hover {
+  border: 1px solid rgb(255, 255, 255);
+  perspective: 500;
+}
+
 /*
   #textbox:hover {
     transform: scale(1.2);
@@ -36,14 +90,23 @@ body {
 h3 {
   color: white;
   border: 2px solid red;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  left: 2px;
   width: fit-content;
   border-radius: 20px;
   padding: 2px;
   font-family: "poppins";
   background-color: #000000;
-  margin: 3px 0px 0px 5px;
+  margin: 0px 0px 0px 5px;
   font-size: 8px;
+  transition: border 0.4s;
 }
+
+h3:hover {
+  border: 2px solid white;
+}
+
 
 #img_container {
   background-image: url("bg4.png");
@@ -58,9 +121,11 @@ h3 {
   right: 0px;
   transition: opacity 0.3s;
 }
+
 #img_container:hover {
   opacity: 1;
 }
+
 #name_image {
   justify-content: space-between;
   display: flex;
@@ -115,7 +180,7 @@ button {
 }
 
 button:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 #bottom_block {
@@ -145,14 +210,21 @@ footer {
   justify-content: center;
   margin: 10px 0px 0px 0px;
 }
- 
+
 i {
   margin: 10px;
+  font-size: 18px;
+  border: 1px solid transparent;
   transition: transform 0.3s;
+  padding: 3px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: border 0.5s;
 }
 
 i:hover {
-  transform: scale(1.1);
+  border: 1px solid rgb(255, 255, 255);
 }
 
 /*#textbox:not(:hover) #img_container {
@@ -173,7 +245,8 @@ opacity: 0; /* Adjust opacity value as needed
   background: #212121;
   box-shadow: 2px 4px 2px rgb(25, 25, 25), -2px -4px 5px rgb(60, 60, 60);
 }
-#icon-bar{
+
+#icon-bar {
   background: #ff000000;
   width: 100%;
   display: flex;
