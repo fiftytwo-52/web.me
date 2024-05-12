@@ -1,5 +1,5 @@
 * {
-  padding: 0;
+  padding: 0px;
   margin: 0px;
 }
 
@@ -35,7 +35,7 @@ body {
   align-items: center;
   width: 100%;
   padding: 2px;
-  background: #00eeff00;
+  background: rgba(46, 232, 245, 0);
   justify-content: space-between;
   display: flex;
 }
@@ -58,11 +58,11 @@ body {
 }
 #search{
   border-radius: 15px;
-  height: 50%;
+  height: 30%;
   border: none;
-  font-size: 12px;
-  padding: 3px;
-
+  font-size: 9px;
+  padding: 1px;
+  max-width: 150px;
 }
 
 label {
@@ -71,23 +71,22 @@ label {
   padding: 0px 2px 0px 2px;
   transition: border 0.5s;
   height: fit-content;
-  color: white;
+  color: rgba(116, 112, 112, 0.785);
   font-weight: 500;
-  border-radius: 15px;
-  perspective: 100;
+  transition: color 0.4s;
+ 
 
 }
 
 label:hover {
-  border: 1px solid rgb(255, 255, 255);
-  perspective: 500;
+  color: white;
 }
 
 /*
   #textbox:hover {
     transform: scale(1.2);
   } */
-h3 {
+#h3-logo {
   color: white;
   border: 2px solid red;
   padding: 0px 0px 0px 0px;
@@ -164,9 +163,9 @@ p {
 
 button {
   border: none;
-  width: 40%;
+  width: 35%;
   min-height: fit-content;
-  max-width: 150px;
+  max-width: 100px;
   margin: 10px 15px 0px 0px;
   border-radius: 10px;
   font-weight: 500;
@@ -199,17 +198,6 @@ a {
   font-family: "Times New Roman";
 }
 
-footer {
-  height: 10%;
-  max-height: 50px;
-  min-height: 20px;
-  background-color: #333232;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 0px 0px 0px;
-}
 
 i {
   margin: 10px;
@@ -255,4 +243,20 @@ opacity: 0; /* Adjust opacity value as needed
   justify-content: space-around;
   max-width: 400px;
   height: 70%;
+}
+#now-hire{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#footer {
+  height: 10%;
+  max-height: 50px;
+  min-height: 20px;
+  background-color: #333232;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 00px 0px 0px 0px;
 }
