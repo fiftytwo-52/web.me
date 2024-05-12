@@ -56,14 +56,14 @@ body {
   height: 20px;
   position: relative;
 }
-#search{
+/* #search{
   border-radius: 15px;
   height: 30%;
   border: none;
   font-size: 9px;
   padding: 1px;
   max-width: 150px;
-}
+} */
 
 label {
   margin: 0px 0px 0px 5px;
@@ -102,7 +102,7 @@ label:hover {
   transition: border 0.4s;
 }
 
-h3:hover {
+#h3-logo:hover {
   border: 2px solid white;
 }
 
