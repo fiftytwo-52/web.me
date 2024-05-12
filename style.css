@@ -246,8 +246,27 @@ opacity: 0; /* Adjust opacity value as needed
 }
 #now-hire{
   width: 100%;
+  background:#000000;
+  display: flex;
+  padding: 2px;
   align-items: center;
   justify-content: center;
+}
+#hire-button{
+  background: #ffc300;
+  padding: 1px;
+  border: 2px solid black;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-family: 'poppins';
+  font-size: 0.7rem;
+  transition: border 0.4s;
+}
+#hire-button:hover{
+  border: 2px solid #ffc300;
 }
 #footer {
   height: 10%;
