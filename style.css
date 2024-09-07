@@ -314,7 +314,7 @@ opacity: 0; /* Adjust opacity value as needed
   align-items: center;
 }
 #project_lable{
-  color: black;
+  color: red;
   font-family: poppins;
   text-decoration: solid rgb(198, 10, 255) 3px underline;
   margin: 10px 0px 15px 0px;
