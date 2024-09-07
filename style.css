@@ -318,6 +318,7 @@ opacity: 0; /* Adjust opacity value as needed
   font-size: 30px;
   text-decoration: solid rgb(198, 10, 255) 3px underline;
   margin-top: 30px;
+  position: relative;
 }
 .horizontal_card_block {
   display: flex;
