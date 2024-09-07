@@ -325,7 +325,7 @@ opacity: 0; /* Adjust opacity value as needed
   gap: 10px; /* Adds space between cards */
   background: #ffffff;
   justify-content:space-between;
-  hight: 20vh;
+  height: 20vh;
   padding: 3px 10px 3px 10px;
 }
 
