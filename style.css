@@ -315,6 +315,7 @@ opacity: 0; /* Adjust opacity value as needed
   background-color: blue;
   border-radius: 8px;
   font-family: poppins;
+  font-size: 30px;
   text-decoration: solid rgb(198, 10, 255) 3px underline;
   margin-top: 30px;
 }
