@@ -336,6 +336,7 @@ opacity: 0; /* Adjust opacity value as needed
   background-color: #ecd5d5;
   padding: 8px;
   border-radius: 8px;
+  width: 40%;
   height: 95%;
   margin-top: 10px;
   /* background-image: url("bg.jpg");
