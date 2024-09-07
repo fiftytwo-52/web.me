@@ -334,7 +334,7 @@ opacity: 0; /* Adjust opacity value as needed
   padding: 8px;
   border-radius: 8px;
   height: 100%;
-  max-width: 30%;
+  width: 30%;
   /* background-image: url("bg.jpg");
   background-size: cover; */
 }
