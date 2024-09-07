@@ -290,7 +290,6 @@ opacity: 0; /* Adjust opacity value as needed
   border-radius: 20px 20px 0px 0px;
   /* color: white; */
   padding: 8px;
-  height: 45vh;
 }
 .scroll_block{
   display: flex;
@@ -325,8 +324,6 @@ opacity: 0; /* Adjust opacity value as needed
   gap: 10px; /* Adds space between cards */
   background: #ffffff;
   justify-content:space-between;
-  height: 40%;
-  margin-top: 15px;
   width: 100%;
   padding: 3px 10px 3px 10px;
 }
@@ -337,7 +334,6 @@ opacity: 0; /* Adjust opacity value as needed
   padding: 8px;
   border-radius: 8px;
   width: 40vw;
-  height: 90%;
   /* background-image: url("bg.jpg");
   background-size: cover; */
 }
