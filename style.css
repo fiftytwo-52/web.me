@@ -333,6 +333,7 @@ opacity: 0; /* Adjust opacity value as needed
   padding: 8px;
   border-radius: 8px;
   height: 20vh;
+  width: 35vw;
   /* background-image: url("bg.jpg");
   background-size: cover; */
 }
