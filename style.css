@@ -3,19 +3,32 @@
   margin: 0px;
 }
 
-/* body {
-  background-color: #ffffff;
-  display: flex;
+body {
+  width: 100%;
+}
+.wholebody{
+  background-color: red;
+  /* border-radius: 20px 20px 0px 0px; */
+  width: 100%;
+  padding: 5px 0px 1px 0px;
+  margin: 0px 0px 0px 0px;
+  background-image: url('bodybg.jpg');
+  background-size: cover;
   align-items: center;
-  height: 99%;
+  
+}
+/* .upcard_container{
+  width: 100%;
+  background-color: yellow;
+  align-items: right;
   justify-content: center;
 } */
-
 #textbox {
+  margin-top: 190px;
   background-color: #000000;
-  width: 40%;
+  width: 50vw;
   /* max-width: ; */
-  min-height: 185px;
+  min-height: 30vw;
   height: 195px;
   overflow: scroll;
   scrollbar-width: none;
@@ -26,11 +39,11 @@
   /*box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.742);*/
   box-shadow: 0 70px 63px -60px #000000;
   min-width: 200px;
+  max-width: 50%;
   transition: transform 0.2s;
+  left: 25vw;
   position: relative;
-  top: 150px;
-  left: 30%;
-  right: 25%;
+  /* top: 150px; */
 }
 
 #nav {
@@ -283,10 +296,13 @@ opacity: 0; /* Adjust opacity value as needed
   margin: 00px 0px 0px 0px;
 }
 .lower_body{
-  width: 100%;
+  position: relative;
+  left: 2px;
+  width: 98%;
+  right: 1px;
   background: #FEFDED;
   /* background: #000; */
-  margin-top: 200px;
+  margin: 200px 0px 0px 0px;
   border-radius: 20px 20px 0px 0px;
   /* color: white; */
   padding: 8px;
@@ -301,23 +317,22 @@ opacity: 0; /* Adjust opacity value as needed
 .scroll_circle{
   height: 40px;
   width: 40px;
-   background: #FEFDED;
-  border-radius: 50%;
+  background: #FEFDED;
+  border-radius: 990%;
   position: relative;
   top: -25px;
-
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
 }
 #project_lable{
   color: white;
   background-color: blue;
   border-radius: 8px;
   font-family: poppins;
-  font-size: 30px;
+  font-size: 2rem;
   text-decoration: solid rgb(198, 10, 255) 3px underline;
-  margin-top: 30px;
+  margin-top: 50px;
   position: relative;
 }
 .horizontal_card_block {
@@ -326,11 +341,12 @@ opacity: 0; /* Adjust opacity value as needed
   gap: 10px; /* Adds space between cards */
   background: #ffffff;
   justify-content:space-between;
+  margin: 10px 0px 0px 0px;
   padding: 3px 10px 3px 10px;
 }
 
 .bottom_card {
-  flex: 1 1 500px; /* Cards can shrink to 200px and grow as needed */
+  flex: 1 1 400px; /* Cards can shrink to 200px and grow as needed */
   background-color: #ecd5d5;
   padding: 8px;
   border-radius: 8px;
@@ -346,10 +362,12 @@ opacity: 0; /* Adjust opacity value as needed
   margin-bottom: 10px;
   background: ##ecd5d5;
   color: green;
+  font-size: 2rem;
 }
 
 .bottom_card_content {
   color: #666;
   background: #ecd5d5;
+  font-size: 2rem;
   
 }
