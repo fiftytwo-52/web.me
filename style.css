@@ -324,7 +324,6 @@ opacity: 0; /* Adjust opacity value as needed
   gap: 10px; /* Adds space between cards */
   background: #ffffff;
   justify-content:space-between;
-  width: 100%;
   padding: 3px 10px 3px 10px;
 }
 
@@ -333,7 +332,6 @@ opacity: 0; /* Adjust opacity value as needed
   background-color: #ecd5d5;
   padding: 8px;
   border-radius: 8px;
-  width: 40vw;
   /* background-image: url("bg.jpg");
   background-size: cover; */
 }
