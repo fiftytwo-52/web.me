@@ -286,9 +286,7 @@ opacity: 0; /* Adjust opacity value as needed
   width: 100%;
   background: #FEFDED;
   /* background: #000; */
-  
-  position: relative;
-  top: 200px;
+  margin-top: 200px;
   border-radius: 20px 20px 0px 0px;
   /* color: white; */
   padding: 8px;
