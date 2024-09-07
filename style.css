@@ -330,11 +330,12 @@ opacity: 0; /* Adjust opacity value as needed
 }
 
 .bottom_card {
-  flex: 1 1 45%; /* Cards can shrink to 200px and grow as needed */
+  flex: 1 1 500px; /* Cards can shrink to 200px and grow as needed */
   background-color: #ecd5d5;
   padding: 8px;
   border-radius: 8px;
-  max-height: 20vh;
+  height: 20vh;
+  /* max-width: 70%; */
   /* background-image: url("bg.jpg");
   background-size: cover; */
 }
