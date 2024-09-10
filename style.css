@@ -98,7 +98,7 @@ label:hover {
 }
 #img_container {
     background-image: url("bg4.png");
-    background-color: red;
+    background-color: #ff000000;
     height: 100%;
     width: 100%;
     padding: 0px 8px 0px 0px;
@@ -281,9 +281,9 @@ i:hover {
 }
 
 /* Media query for tablets */
-@media (min-width: 600px) {
+@media (min-width: 720px) {
   .horizontal_card_block {
-    grid-template-columns: repeat(2, 1fr); /* 2 divs per row for tablets */
+    grid-template-columns: repeat(1, 1fr); /* 2 divs per row for tablets */
   }
 }
 
