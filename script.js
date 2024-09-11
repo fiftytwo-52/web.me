@@ -1,4 +1,5 @@
-<script>
+{/* <script>
+    // Select all elements with class 'bottom_card_header'
     const cardHeaders = document.querySelectorAll(".bottom_card_header");
 
     // Loop through each element and add the click event
@@ -7,4 +8,4 @@
             window.location.href = "maintain.html"; // Redirects to maintain.html
         };
     });
-</script>
+</script> */}
