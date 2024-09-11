@@ -295,9 +295,9 @@ i:hover {
   transition: transform 0.2s;
   word-wrap: break-word; /* Ensures long words wrap to the next line */
   overflow-wrap: break-word; /* Modern alternative for word wrapping */
-  overflow:scroll;
   background-size: cover;
-  scrollbar-width: none;
+  overflow: hidden;
+  margin: 20px 0px 0px 0px;
   box-sizing: border-box;
 }
 
@@ -317,11 +317,24 @@ i:hover {
   /* max-height: 75%; */
   height: inherit;
   font-family: Poppins, Arial, Helvetica, sans-serif;
-  background: #ffffffe7;
-  word-wrap: break-word; /* Ensures long words wrap to the next line */
-  overflow-wrap: break-word; /* Modern alternative for word wrapping */
-  overflow:scroll;/* Prevents text overflow */
-  scrollbar-width: none;
+  background: #ffffff;
   padding: 3px; /* Adds padding to keep the content inside */
-  box-sizing: border-box; /* Ensures padding is included in the element's total width/height */
+}
+.bottom_footer{
+    background: #000;
+    width: 100%;
+    height: 200px;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bottom_footer{
+    position: absolute;
+    align-items: center;
+    color: red;
+    justify-content: center;
+    width: auto;
 }

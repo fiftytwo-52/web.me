@@ -1,11 +1,10 @@
-const hamburgerIcon = document.querySelector('.hamburger-icon');
-const menu = document.querySelector('.menu');
+<script>
+    const cardHeaders = document.querySelectorAll(".bottom_card_header");
 
-hamburgerIcon.addEventListener('click', () => {
-    menu.classList.toggle('show-menu');
-});
-
-// Add this CSS rule to your stylesheet
-.show - menu {
-    display: block;
-}
+    // Loop through each element and add the click event
+    cardHeaders.forEach(function(card) {
+        card.onclick = function() {
+            window.location.href = "maintain.html"; // Redirects to maintain.html
+        };
+    });
+</script>

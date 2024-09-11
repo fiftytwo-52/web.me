@@ -1,12 +1,15 @@
 <html>
 
 <head>
+
     <title>Helo Helo॥</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
+
     <div class="wholebody">
         <div id="textbox">
             <div id="nav">
@@ -65,6 +68,7 @@
             </div>
         </div>
         <div class="lower_body">
+
             <div class="scroll_block">
                 <div class="scroll_circle">
                     <i class="fa-solid fa-sort-down"></i>
@@ -73,51 +77,67 @@
             <label id="project_lable">Projects</label>
             <div class="horizontal_card_block">
                 <div class="bottom_card" style="background-image: url(travel.jpg);">
-                    <div class="bottom_card_header">  Nepal Travel Planner<i class="fa-solid fa-route"></i></div>
+                    <div class="bottom_card_header"> Nepal Travel Planner<i class="fa-solid fa-route"></i></div>
                     <div class="bottom_card_content">A website that helps users plan trips to different regions of
                         Nepal, offering suggestions for trekking routes, cultural sites, local homestays, and
                         sustainable travel options. It could feature real-time weather and permit information.</div>
                 </div>
 
-                <div class="bottom_card"  style="background-image: url(market.PNG);">
-                    <div class="bottom_card_header" style="color: white;">Local Farmers’ Market<i class="fa-solid fa-shop"></i></div>
-                    <div class="bottom_card_content" style="background-color: rgba(255, 255, 255, 0.349);">A platform that connects local farmers with consumers in urban
+
+
+                <div class="bottom_card" style="background-image: url(market.PNG);">
+                    <div class="bottom_card_header" style="color: white;">Local Farmers’ Market<i
+                            class="fa-solid fa-shop"></i></div>
+                    <div class="bottom_card_content" style="background-color: rgb(255, 255, 255);">A platform that
+                        connects local farmers with consumers in urban
                         areas, allowing them to buy fresh, organic produce directly from the source. It can include home
                         delivery options and a section highlighting sustainable farming practices in Nepal.</div>
+
+
                 </div>
 
+
+
                 <div class="bottom_card" style="background-image: url(craft.PNG);">
-                    <div class="bottom_card_header" style="color: white;">Nepali-craft Marketplace<i class="fa-brands fa-firstdraft"></i></div>
+                    <div class="bottom_card_header" style="color: white;">Nepali-craft Marketplace<i
+                            class="fa-brands fa-firstdraft"></i></div>
                     <div class="bottom_card_content">An e-commerce site focused on selling traditional Nepalese
                         handicrafts, from handmade pottery to pashmina shawls. It could also feature artist stories and
                         information about the cultural significance of various products.</div>
+                    <script>
+                        document.querySelector(".bottom_card_header").onclick = function () {
+                            window.location.href = "maintain.html"; // Redirects to maintain.html
+                        };
+                    </script>
                 </div>
 
+
+
                 <div class="bottom_card" style="background-image: url(disaster.webp);">
-                    <div class="bottom_card_header">Disaster Alert & Relief Hub <i class="fa-solid fa-person-circle-exclamation"></i></div>
+                    <div class="bottom_card_header">Disaster Alert & Relief Hub <i
+                            class="fa-solid fa-person-circle-exclamation"></i></div>
                     <div class="bottom_card_content">A real-time platform that provides disaster alerts (earthquakes,
                         landslides, floods) and connects users to local relief efforts. It can also have a donation
                         system and volunteer sign-up to help communities in need.</div>
                 </div>
+
             </div>
-            <label id="project_lable">Blogs</label><br />
-            <div class="horizontal_card_block">
-                <div class="bottom_card">
-                    <div class="bottom_card_header">Project 1</div>
-                    <div class="bottom_card_content">Content</div>
-                </div>
+            <div class="bottom_footer">
+                <p id="bottom_footer">hehe :)</p>
             </div>
-            <label id="project_lable">Useful Links</label>
-            <div class="horizontal_card_block">
-                <div class="bottom_card">
-                    <div class="bottom_card_header">Project 1</div>
-                    <div class="bottom_card_content">Content</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <label id="project_lable">Last Updated: 09-Sep</label>
-    test from Acode
+            last updated: 09-11 VS Code
+    <script>
+        // Select all elements with class 'bottom_card_header'
+        const cardHeaders = document.querySelectorAll(".bottom_card_header");
+
+        // Loop through each element and add the click event
+        cardHeaders.forEach(function (card) {
+            card.onclick = function () {
+                window.location.href = "maintain.html"; // Redirects to maintain.html
+            };
+        });
+    </script>
+
 </body>
 
 </html>
