@@ -234,7 +234,7 @@ i:hover {
 .lower_body {
   position: relative;
   max-width: 100%;
-  background: #f8f8f8;
+  background: #ffffff;
   margin: 100px 0px 0px 0px;
   border-radius: 20px 20px 0 0;
   padding: 8px;
@@ -298,6 +298,7 @@ i:hover {
   background-size: cover;
   overflow: hidden;
   margin: 20px 0px 0px 0px;
+  max-width: fit-content;
   box-sizing: border-box;
 }
 
